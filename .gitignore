@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Test / build
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# Data (opsional)
+data/processed/
