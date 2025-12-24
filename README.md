@@ -178,15 +178,3 @@ curl "http://127.0.0.1:8000/popular?k=5"
 ```bash
 curl "http://127.0.0.1:8000/recommendations?user_id=u207&k=5"
 ```
-
----
-
-## Final Check (Checklist)
-
-* [ ] File CSV ada di `data/raw/`
-* [ ] `pip install -r requirements.txt` sukses
-* [ ] `uvicorn recommender_system.main:app --app-dir src --reload` jalan
-* [ ] `/docs` bisa dibuka
-* [ ] `/popular` dan `/recommendations` mengembalikan response valid
-
-````
