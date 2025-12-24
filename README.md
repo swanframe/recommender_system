@@ -303,16 +303,16 @@ curl -s "http://127.0.0.1:8000/history?user_id=u1&k=10" | python -m json.tool
 ## Screenshots
 
 ### Server running
-![Uvicorn](assets/uvicorn.jpg)
+<img src="assets/uvicorn.jpg" width="500" />
 
 ### Health
-![Health](assets/health.jpg)
+<img src="assets/health.jpg" width="500" />
 
 ### Popular
-![Popular](assets/popular.jpg)
+<img src="assets/popular.jpg" width="500" />
 
 ### Recommendations
-![Recommendations](assets/recommendations.jpg)
+<img src="assets/recommendations.jpg" width="500" />
 
 ### Swagger UI
-![Swagger](assets/swagger.png)
+<img src="assets/swagger.png" width="500" />
